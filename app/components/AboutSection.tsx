@@ -389,7 +389,7 @@ function AboutSection() {
                   color: "white",
                 }}
               >
-                31st July, 2024
+                15th August, 2024
               </Typography>
             </Typography>
             <Typography
