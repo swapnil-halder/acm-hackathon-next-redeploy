@@ -9,7 +9,7 @@ import "./fonts/font.css";
 function AboutSection() {
   return (
     <Box id="aboutus">
-      <Box
+      {/* <Box
         sx={{
           alignSelf: "center",
           textAlign: "center",
@@ -39,18 +39,19 @@ function AboutSection() {
           >
             US
           </Typography>
+          FINALISTS
         </Typography>
-      </Box>
+      </Box> */}
       <Container>
         <Container
           sx={{
             mt: { sm: 10 },
-           
+
             alignSelf: "center",
             alignContent: "middle ",
             // height: { sm: "680px" },
             alignItems: "center",
-            textAlign:"center",
+            textAlign: "center",
             pt: { xs: 5, sm: 10 },
             pb: { xs: 8, sm: 12 },
             // [theme.breakpoints.up("xs")]: {
@@ -61,12 +62,17 @@ function AboutSection() {
             //   boxShadow:`0 0 24px 12px ${alpha("#033363", 0.2)}`,
             // },
           }}
-      >
-                <p
-        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-sm font-extrabold text-transparent lg:text-3xl p-10"
-      >
-        Intro video Coming Soon........
-      </p>
+        >
+          <a href="/files/HackSpire%272024%20Selected%20Teams.pdf" download>
+            <img
+              src="/images/Download finalists.png"
+              alt="Download finalists"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </a>
+          {/* <p className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-sm font-extrabold text-transparent lg:text-3xl p-10">
+              Download results pdf
+            </p> */}
         </Container>
       </Container>
       <Container>
@@ -139,9 +145,9 @@ function AboutSection() {
                 }}
               >
                 Hackspire is a statewide initiative to provide engineering
-                students to solve some of the common problems we face in our daily
-                life, and thus inculcate a culture of product innovation and a
-                mindset of real time problem solving.
+                students to solve some of the common problems we face in our
+                daily life, and thus inculcate a culture of product innovation
+                and a mindset of real time problem solving.
               </Typography>
               <Typography
                 variant="h1"
@@ -258,7 +264,7 @@ function AboutSection() {
           </Grid>
         </Grid>
         <Stack spacing={2} sx={{ display: { sm: "none" }, width: "100%" }}>
-          <Box sx={{textAlign:'center'}}>
+          <Box sx={{ textAlign: "center" }}>
             <Typography
               variant="h1"
               sx={{
@@ -285,17 +291,17 @@ function AboutSection() {
             color="white"
             sx={{
               alignSelf: "center",
-              width: '90%',
+              width: "90%",
               fontFamily: "Varela",
               fontSize: { sm: "22px", xs: "16px" },
             }}
           >
-            Hackspire is a statewide initiative to provide engineering students to
-            solve some of the common problems we face in our daily life, and thus
-            inculcate a culture of product innovation and a mindset of real time
-            problem solving.
+            Hackspire is a statewide initiative to provide engineering students
+            to solve some of the common problems we face in our daily life, and
+            thus inculcate a culture of product innovation and a mindset of real
+            time problem solving.
           </Typography>
-          <Box sx={{textAlign:'center', pt:5}}>
+          <Box sx={{ textAlign: "center", pt: 5 }}>
             <Typography
               variant="h1"
               sx={{
@@ -306,17 +312,17 @@ function AboutSection() {
               }}
             >
               IMPORTANT&nbsp;
-            <Typography
-              component="span"
-              variant="h1"
-              sx={{
-                fontSize: { sm: "48px", xs: "30px" },
-                fontFamily: "blanka",
-                color: "#AAE6FF",
-              }}
-            >
-              DATES
-            </Typography>
+              <Typography
+                component="span"
+                variant="h1"
+                sx={{
+                  fontSize: { sm: "48px", xs: "30px" },
+                  fontFamily: "blanka",
+                  color: "#AAE6FF",
+                }}
+              >
+                DATES
+              </Typography>
             </Typography>
             <Typography
               variant="h1"
@@ -328,25 +334,27 @@ function AboutSection() {
               }}
             >
               AND&nbsp;
-            <Typography
-              component="span"
-              variant="h1"
-              sx={{
-                fontSize: { sm: "48px", xs: "30px" },
-                fontFamily: "blanka",
-                color: "white",
-              }}
-            >
-              DEADLINE
-            </Typography>
+              <Typography
+                component="span"
+                variant="h1"
+                sx={{
+                  fontSize: { sm: "48px", xs: "30px" },
+                  fontFamily: "blanka",
+                  color: "white",
+                }}
+              >
+                DEADLINE
+              </Typography>
             </Typography>
           </Box>
-          <Stack sx={{
+          <Stack
+            sx={{
               alignSelf: "center",
-              width: '90%',
+              width: "90%",
               fontFamily: "Varela",
               fontSize: { sm: "22px", xs: "16px" },
-            }}>
+            }}
+          >
             <Typography
               component="span"
               variant="h1"
@@ -416,7 +424,8 @@ function AboutSection() {
             </Typography>
           </Stack>
         </Stack>
-      </Container>ß
+      </Container>
+      ß
     </Box>
   );
 }

@@ -10,13 +10,13 @@ export const cards: CardType[] = [
   {
     url: "/images/Institutes/BPPoddar.jpg",
     role: "Institute Collaboration",
-    title: "BP Poddar Institute of Management and Technology",
+    title: "ACM BPPIMT Student Chapter",
     id: 2,
   },
   {
     url: "/images/Institutes/Heritage.jpg",
     role: "Institute Collaboration",
-    title: "Heritage Institute of Technology",
+    title: "HITK ACM Student Chapter",
     id: 3,
   },
   {
