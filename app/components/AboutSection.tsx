@@ -9,7 +9,7 @@ import "./fonts/font.css";
 function AboutSection() {
   return (
     <Box id="aboutus">
-      <Box
+      {/* <Box
         sx={{
           alignSelf: "center",
           textAlign: "center",
@@ -23,7 +23,7 @@ function AboutSection() {
             color: "white",
           }}
         >
-          {/* ABOUT&nbsp;
+          ABOUT&nbsp;
           <Typography
             component="span"
             variant="h1"
@@ -38,10 +38,10 @@ function AboutSection() {
             }}
           >
             US
-          </Typography> */}
+          </Typography>
           FINALISTS
         </Typography>
-      </Box>
+      </Box> */}
       <Container>
         <Container
           sx={{
@@ -64,15 +64,15 @@ function AboutSection() {
           }}
         >
           <a href="/files/HackSpire%272024%20Selected%20Teams.pdf" download>
-            {/* <img
+            <img
               src="/images/Download finalists.png"
               alt="Download finalists"
               style={{ width: "100%", height: "auto" }}
-            /> */}
-            <p className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-sm font-extrabold text-transparent lg:text-3xl p-10">
-              Download results pdf
-            </p>
+            />
           </a>
+          {/* <p className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-sm font-extrabold text-transparent lg:text-3xl p-10">
+              Download results pdf
+            </p> */}
         </Container>
       </Container>
       <Container>
